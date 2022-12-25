@@ -322,9 +322,6 @@ void check_winner(){
         else if( (flag22 == false && boxes[2][2].getText().equals(boxes[1][2].getText())&&boxes[1][2].getText().equals(boxes[0][2].getText())) ){
 
             String value = boxes[2][2].getText();
-            boxes[2][2].setBackground(Color.green);
-            boxes[1][2].setBackground(Color.green);
-            boxes[0][2].setBackground(Color.green);
             JOptionPane.showMessageDialog(null,value+" is the winner");
         }
         else if (flag00==false && flag01==false && flag02==false &&  flag10==false &&  flag11==false &&  flag12==false &&  flag20==false &&  flag21==false &&  flag22==false ){
